@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: atharhum-pro
-    runtime: docker
-    plan: free
-    healthCheckPath: /api/health
-    autoDeploy: true
